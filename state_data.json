@@ -1,0 +1,26 @@
+[
+  {
+    "state": "Maharashtra",
+    "capital": "Mumbai",
+    "info": "Known for Bollywood.",
+    "mapColor": "#E3A595"
+  },
+  {
+    "state": "Karnataka",
+    "capital": "Bengaluru",
+    "info": "Known as the Silicon Valley of India.",
+    "mapColor": "#B4C8D2"
+  },
+  {
+    "state": "Tamil Nadu",
+    "capital": "Chennai",
+    "info": "Famous for its ancient temples.",
+    "mapColor": "#C3B1CE"
+  },
+  {
+    "state": "Andaman & Nicobar Islands",
+    "capital": "Port Blair",
+    "info": "A beautiful archipelago in the Bay of Bengal.",
+    "mapColor": "#A8D8B9"
+  }
+]

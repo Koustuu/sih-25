@@ -1,0 +1,11 @@
+- [x] Change body background to white in style.css
+- [x] Remove border and box-shadow from #map-container, make it full screen in style.css
+- [x] Update script.js to set map size to full screen and adjust projection to fit whole India
+- [x] Fix file name in script.js from "india_states.geojson" to "india_state_geo.json"
+- [x] Update popupContent in script.js to include carousel structure with slides
+- [x] Add CSS styles for carousel in style.css
+- [x] Add JavaScript logic for prev/next buttons and auto-slide in script.js
+- [ ] Test the functionality by running the app and clicking on states
+- [x] Update style.css: Move bg.png background to #map-container with background-size: cover, remove from #map-wrapper
+- [x] Update map.js: Set SVG width/height to full viewport, correct GeoJSON path to 'india_state_geo.json', adjust projection
+- [ ] Test bg.png covers whole map background and India map sits on top

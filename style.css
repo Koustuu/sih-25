@@ -14,11 +14,10 @@ body {
 
 /* This is the main frame for your map */
 #map-wrapper {
-    position: center;
-    width: 950px;
-    height: 640px;
-    
-    
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
 }
 
 /* This container holds the SVG and the background image */

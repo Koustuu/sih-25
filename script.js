@@ -63,10 +63,9 @@ function createCarousel(info) {
 
 // === MAP DRAWING LOGIC ===
 
-// Get dimensions from the wrapper, NOT the window
-const mapWrapper = d3.select("#map-wrapper");
-const width = mapWrapper.node().getBoundingClientRect().width;
-const height = mapWrapper.node().getBoundingClientRect().height;
+// Get dimensions from the window for responsiveness
+const width = window.innerWidth;
+const height = window.innerHeight * 0.8; // 80vh
 
 // Create the SVG container
 const svg = d3.select("#map-container")
@@ -101,12 +100,12 @@ Promise.all([
         .attr("class", "state")
         .attr("d", pathGenerator)
         .attr("fill", d => {
-            const stateName = d.properties.st_nm;
+            const stateName = d.properties.NAME_1;
             const info = dataMap.get(stateName);
             return info ? info.mapColor : "#e8e8e8"; // Use custom color or default gray
         })
         .on("click", (event, d) => {
-            const stateName = d.properties.st_nm;
+            const stateName = d.properties.NAME_1;
             const info = dataMap.get(stateName);
             if (info) {
                 createCarousel(info);
